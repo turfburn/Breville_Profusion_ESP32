@@ -1,0 +1,18 @@
+{
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "C:\\Users\\turfb\\.espressif\\tools\\esp-clang\\16.0.1-fe4f10a809\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Users\\turfb\\.espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20240530\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=c:\\ESP-IDF\\ESP32-S3-LCD-1.85-Test\\build"
+  ],
+  "idf.espIdfPathWin": "c:\\v5.3\\esp-idf",
+  "idf.toolsPathWin": "c:\\IDFTools",
+  "idf.pythonInstallPath": "c:\\IDFTools\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.portWin": "COM5"
+}

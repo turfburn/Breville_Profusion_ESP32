@@ -1,0 +1,18 @@
+menu "Example Configuration"
+    config LV_MEM_SIZE_KILOBYTES
+        int "Size of the memory used by `lv_mem_alloc` in kilobytes (>= 2kB)"
+        default 48
+    config BT_ENABLED
+        bool "Select this option to enable Bluetooth"
+        default y 
+
+    config BT_BLE_50_FEATURES_SUPPORTED
+        bool "Enabling this option activates BLE 5.0 features"
+        default y 
+        
+    config BT_BLE_42_FEATURES_SUPPORTED
+        bool "This enables BLE 4.2 features."
+        default y 
+    
+
+endmenu
